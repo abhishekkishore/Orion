@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script type="text/javascript" src="lib/plugin.js"></script>
+<script>
+    var headers = { name: "My Plugin", version: "1.0", description: "My first Orion plugin." };
+    var provider = new orion.PluginProvider(headers);
+    provider.connect();
+</script>
 <meta charset="UTF-8" />
    <title>Reverse Plugin</title>
 </head>
